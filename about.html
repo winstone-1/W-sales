@@ -11,36 +11,184 @@
 </head>
 <body>
     <header>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="assets\logo.png" alt="Lumina Systems Logo" class="logo-img">
-                <span class="logo-text">W<span>Sales</span></span>
-            </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
-                <li><a href="products.html" class="nav-link">Products</a></li>
-                <li><a href="contact.html" class="nav-link">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
+         <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-100">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex justify-between items-center h-20">
+                    <div class="text-2xl font-black text-blue-600 tracking-tighter">
+                        W-Sales
+                        <span class="text-orange-500">.</span>
+                    </div>
+                    <ul class="hidden md:flex items-center gap-8 font-bold text-stone-600">
+                        <li><a href="index.html" class="text-blue-600">Home</a></li>
+                        <li><a href="products.html" class="hover:text-blue-600">products</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-600">contact Us</a></li>
+                        <li><a href="about.html" class="hover:text-blue-600">About Us</a></li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center gap-2 text-white bg-stone-900 py-2.5 rounded-xl hover:bg-green-600 transition-colors px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                </svg>
+                                <span>Cart (0)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <label for="mobile-menu" class="md:hidden cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <input type="checkbox" id="mobile-menu" class="peer hidden">
+            <div
+                class="max-h-0 overflow-hidden peer-checked:max-h-64 transition-all duration-300 md:hidden bg-white border-t border-stone-100">
+                <ul class="flex flex-col gap-4 p-6 font-bold text-stone-600">
+                    <li><a href="index.html" class="text-green-600">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-   <main>
-  <section class="about-hero">
-    <h1>About Us</h1>
-    <p>Who we are and what we believe in.</p>
-  </section>
+  <main>
+      <!-- Page Header -->
+      <section class="page-header">
+         <div class="container">
+            <h1>About Lumina Systems</h1>
+            <p>Shaping the future of digital infrastructure</p>
+         </div>
+      </section>
 
-  <section class="story"></section>
-  <section class="values"></section>
-</main>
+      <!-- About Hero Section -->
+      <section class="about-hero">
+         <div class="container">
+            <div class="about-grid">
+               <div class="about-content">
+                  <h2>Who We Are</h2>
+                  <p>Lumina Systems is a forward-thinking technology company dedicated to providing comprehensive digital solutions. Since our founding in 2020, we've partnered with enterprises to architect scalable cloud infrastructure, design intuitive user experiences, and build robust web applications.</p>
+                  <p>Our mission is simple: illuminate the path to digital excellence by combining technical expertise with human-centered design.</p>
+               </div>
+               <div class="about-image">
+                  <img src="assets/hero.avif" alt="Lumina Systems Team">
+               </div>
+            </div>
+         </div>
+      </section>
 
+      <!-- Values Section -->
+      <section class="values-section">
+         <div class="container">
+            <div class="section-header">
+               <h2>Our Values</h2>
+               <div class="line"></div>
+            </div>
+            <div class="values-grid">
+               <div class="value-card">
+                  <div class="value-icon">
+                     <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <h3>Innovation</h3>
+                  <p>We stay ahead of technology trends to deliver cutting-edge solutions that drive business growth.</p>
+               </div>
+               <div class="value-card">
+                  <div class="value-icon">
+                     <i class="fas fa-handshake"></i>
+                  </div>
+                  <h3>Partnership</h3>
+                  <p>We believe in collaborative relationships where your success is our success.</p>
+               </div>
+               <div class="value-card">
+                  <div class="value-icon">
+                     <i class="fas fa-shield-alt"></i>
+                  </div>
+                  <h3>Reliability</h3>
+                  <p>Security, performance, and dependability are at the core of everything we build.</p>
+               </div>
+               <div class="value-card">
+                  <div class="value-icon">
+                     <i class="fas fa-users"></i>
+                  </div>
+                  <h3>User-Centric</h3>
+                  <p>We design experiences that prioritize user needs and drive meaningful engagement.</p>
+               </div>
+            </div>
+         </div>
+      </section>
 
-      
+      <!-- Stats Section -->
+      <section class="stats-section">
+         <div class="container">
+            <div class="stats-grid">
+               <div class="stat">
+                  <h3>200+</h3>
+                  <p>Companies Served</p>
+               </div>
+               <div class="stat">
+                  <h3>50M+</h3>
+                  <p>Users Impacted</p>
+               </div>
+               <div class="stat">
+                  <h3>98%</h3>
+                  <p>Client Satisfaction</p>
+               </div>
+               <div class="stat">
+                  <h3>6+</h3>
+                  <p>Years Experience</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Team Section -->
+      <section class="team-section">
+         <div class="container">
+            <div class="section-header">
+               <h2>Our Team</h2>
+               <div class="line"></div>
+            </div>
+            <p class="team-intro">Meet the talented individuals driving innovation at Lumina Systems</p>
+            <div class="team-grid">
+               <div class="team-member">
+                  <div class="member-avatar">
+                     <div class="avatar-placeholder">AS</div>
+                  </div>
+                  <h3>Alex Sterling</h3>
+                  <p class="role">Founder & CEO</p>
+                  <p class="bio">Cloud architect with 10+ years building scalable infrastructure for Fortune 500 companies.</p>
+               </div>
+               <div class="team-member">
+                  <div class="member-avatar">
+                     <div class="avatar-placeholder">SM</div>
+                  </div>
+                  <h3>Sarah Mitchell</h3>
+                  <p class="role">Head of Design</p>
+                  <p class="bio">User experience visionary focused on creating intuitive, accessible digital experiences.</p>
+               </div>
+               <div class="team-member">
+                  <div class="member-avatar">
+                     <div class="avatar-placeholder">JP</div>
+                  </div>
+                  <h3>James Park</h3>
+                  <p class="role">VP Engineering</p>
+                  <p class="bio">Full-stack engineer passionate about building performant, secure web applications.</p>
+               </div>
+               <div class="team-member">
+                  <div class="member-avatar">
+                     <div class="avatar-placeholder">EC</div>
+                  </div>
+                  <h3>Emma Chen</h3>
+                  <p class="role">Client Success Director</p>
+                  <p class="bio">Strategic partner committed to ensuring every client achieves their digital transformation goals.</p>
+               </div>
+            </div>
+         </div>
+      </section>
 
       <!-- CTA Section -->
       <section class="cta">
@@ -50,7 +198,9 @@
       </section>
    </main>
 
-  <footer class="main-footer">
+
+      
+ <footer class="main-footer">
         <div class="footer-container">
             <div class="footer-col brand-col">
                 <a href="index.html" class="logo1">
@@ -78,9 +228,9 @@
             <div class="footer-col">
                 <h4>Our Expertise</h4>
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#"></a>Premium Jewelry</li>
+                    <li><a href="#"></a>Artisanal Gifts</li>
+                    <li><a href="#"></a>Contemporary Footwear</li>
                 </ul>
             </div>
             <div class="footer-col">

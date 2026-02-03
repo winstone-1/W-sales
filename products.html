@@ -10,29 +10,73 @@
 </head>
 <body>
      <header>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="assets\logo.png" alt="Lumina Systems Logo" class="logo-img">
-                <span class="logo-text">W<span>Sales</span></span>
-            </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
-                <li><a href="products.html" class="nav-link">Products</a></li>
-                <li><a href="contact.html" class="nav-link">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
+         <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-100">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex justify-between items-center h-20">
+                    <div class="text-2xl font-black text-blue-600 tracking-tighter">
+                        W-Sales
+                        <span class="text-orange-500">.</span>
+                    </div>
+                    <ul class="hidden md:flex items-center gap-8 font-bold text-stone-600">
+                        <li><a href="index.html" class="text-blue-600">Home</a></li>
+                        <li><a href="products.html" class="hover:text-blue-600">products</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-600">contact Us</a></li>
+                        <li><a href="about.html" class="hover:text-blue-600">About Us</a></li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center gap-2 text-white bg-stone-900 py-2.5 rounded-xl hover:bg-green-600 transition-colors px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                </svg>
+                                <span>Cart (0)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <label for="mobile-menu" class="md:hidden cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <input type="checkbox" id="mobile-menu" class="peer hidden">
+            <div
+                class="max-h-0 overflow-hidden peer-checked:max-h-64 transition-all duration-300 md:hidden bg-white border-t border-stone-100">
+                <ul class="flex flex-col gap-4 p-6 font-bold text-stone-600">
+                    <li><a href="index.html" class="text-green-600">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <main>
-  <h1>Our Products</h1>
-  <section class="filters"></section>
-  <section class="product-grid"></section>
-</main>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div class="group">
+                        <div class="relative overflow-hidden rounded-3xl bg-stone-100 aspect-square mb-4">
+                            <img src="assets\airforce.jpg" alt="shoes"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ">
+                            <span
+                                class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Popular</span>
+                        </div>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold text-stone-800">Nike Air Custom Shoes</h3>
+                                <p class="text-stone-500">Out of Stock</p>
+                            </div>
+                            <p class="text-xl font-black text-green-700">KSh 3500</p>
+                        </div>
+                        <button
+                            class="w-full mt-4 py-3 border-2 border-stone-100 rounded-xl font-bold group-hover:bg-green-600 group-hover:text-white group-hover:border-green-600 transition-all">
+                            Quick Add +
+                        </button>
+                    </div>
 
+        </section>
    </header> 
    <footer class="main-footer">
         <div class="footer-container">
@@ -62,9 +106,9 @@
             <div class="footer-col">
                 <h4>Our Expertise</h4>
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#"></a>Premium Jewelry</li>
+                    <li><a href="#"></a>Artisanal Gifts</li>
+                    <li><a href="#"></a>Contemporary Footwear</li>
                 </ul>
             </div>
             <div class="footer-col">
