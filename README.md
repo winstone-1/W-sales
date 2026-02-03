@@ -31,11 +31,11 @@ A curated e-commerce destination specializing in premium jewelry, artisanal gift
 5. Responsive Navbar and Footer
 
 ## Screenshots
-!(landing pagescreenshot){![alt text](![alt text](<>))}
+!(landing pagescreenshot){![alt text](![alt text](<![alt text](<Screenshot (2).png>)>))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<Screenshot (1).png>)>)))}
 
-!(landing pagescreenshot){![alt text](![alt text](![alt text](<>)))}
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<Screenshot (3).png>)>)))}
 ## Live Link
 [see my website](https://github.com/winstone-1/W-Sales.git)
 
