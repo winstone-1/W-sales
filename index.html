@@ -13,24 +13,51 @@
 </head>
 
 <body>
-   <header>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="assets\logo.png" alt="Lumina Systems Logo" class="logo-img">
-                <span class="logo-text">W<span>Sales</span></span>
-            </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Us</a></li>
-                <li><a href="products.html" class="nav-link">Products</a></li>
-                <li><a href="contact.html" class="nav-link">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
-   </header> 
+     <header>
+        <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-100">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex justify-between items-center h-20">
+                    <div class="text-2xl font-black text-green-600 tracking-tighter">
+                        W-Sales
+                        <span class="text-orange-500">.</span>
+                    </div>
+                    <ul class="hidden md:flex items-center gap-8 font-bold text-stone-600">
+                        <li><a href="index.html" class="text-green-600">Home</a></li>
+                        <li><a href="products.html" class="hover:text-green-600">products</a></li>
+                        <li><a href="contact.html" class="hover:text-green-600">contact</a></li>
+                        <li><a href="about.html" class="hover:text-green-600">About Us</a></li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center gap-2 text-white bg-stone-900 py-2.5 rounded-xl hover:bg-green-600 transition-colors px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                </svg>
+                                <span>Cart (0)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <label for="mobile-menu" class="md:hidden cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-stone-900" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <input type="checkbox" id="mobile-menu" class="peer hidden">
+            <div
+                class="max-h-0 overflow-hidden peer-checked:max-h-64 transition-all duration-300 md:hidden bg-white border-t border-stone-100">
+                <ul class="flex flex-col gap-4 p-6 font-bold text-stone-600">
+                    <li><a href="index.html" class="text-green-600">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
         <section class="hero">

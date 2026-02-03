@@ -1,1 +1,65 @@
 # W-sales
+
+## Contributor
+By Winstone Mwangi
+
+## Description
+A curated e-commerce destination specializing in premium jewelry, artisanal gifts, stylish handbags, and contemporary footwear. We bridge the gap between everyday essentials and standout statement pieces.
+
+## Pages
+1. Home Page 
+    - Hero section
+    - Featured fruit cards
+    - testimonials
+    - call to action buttons(CTA)
+
+2. Shop/Catalogue(products page)
+    - Multi-column layout
+    - sidebar filters
+    - sale badges - add to card 
+
+3. Product detail 
+    - large galleries
+    - quantity selectors
+    - related items
+
+4. Cart/checkout
+    - Order summary tables
+    - input fields
+    - Sticky checkout buttons
+
+5. Responsive Navbar and Footer
+
+## Screenshots
+!(landing pagescreenshot){![alt text](![alt text](<>))}
+
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<>)))}
+
+!(landing pagescreenshot){![alt text](![alt text](![alt text](<>)))}
+## Live Link
+[see my website](https://github.com/winstone-1/W-Sales.git)
+
+## set up abt installation
+### clone the repository
+``` bash
+git clone git@github.com:winstone-1/W-sales.git
+```
+
+## navigate into folder
+``` bash
+cd W-Sales/
+```
+## Technologies Used
+- HTML
+- GITHUB PAGES
+- git and github 
+
+## Known Bugs
+There are no bugs
+
+## Support and Contact Information
+**email:**winstonemuna404@gmail.com
+**Phone Number:**0795278996
+
+## License
+### MIT License
