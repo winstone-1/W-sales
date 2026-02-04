@@ -31,7 +31,7 @@ A curated e-commerce destination specializing in premium jewelry, artisanal gift
 5. Responsive Navbar and Footer
 
 ## Screenshots
-!(landing pagescreenshot){![alt text](![alt text](<![alt text](<assets\Screenshot .png>)>))}
+!(landing pagescreenshot){![alt text](![alt text](<assets\Screenshot .png>))}
 
 !(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<Screenshot (1).png>)>)))}
 
@@ -42,7 +42,7 @@ A curated e-commerce destination specializing in premium jewelry, artisanal gift
 ## set up abt installation
 ### clone the repository
 ``` bash
-git clone git@github.com:winstone-1/W-sales.git
+git clone https://winstone-1.github.io/W-sales/
 ```
 
 ## navigate into folder
@@ -63,3 +63,5 @@ There are no bugs
 
 ## License
 ### MIT License
+
+[def]: <assets\Screenshot .png>
