@@ -31,7 +31,7 @@ A curated e-commerce destination specializing in premium jewelry, artisanal gift
 5. Responsive Navbar and Footer
 
 ## Screenshots
-!(landing pagescreenshot){![alt text](![alt text](<![alt text](<Screenshot (2).png>)>))}
+!(landing pagescreenshot){![alt text](![alt text](<![alt text](<assets\Screenshot .png>)>))}
 
 !(landing pagescreenshot){![alt text](![alt text](![alt text](<![alt text](<Screenshot (1).png>)>)))}
 
